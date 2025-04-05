@@ -1,0 +1,29 @@
+.upcoming-movies-strip {
+  background-color: pink;
+  color: maroon;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.upcoming-movies {
+  display: flex;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.released-movies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.filters {
+  width: 25%;
+}
